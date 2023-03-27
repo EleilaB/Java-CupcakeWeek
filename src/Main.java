@@ -75,6 +75,8 @@ public class Main {
         drinkMenu.add(soda);
         drinkMenu.add(milk);
 
+        new Order(cupcakeMenu, drinkMenu);
+
     }
 
     static class Cupcake {
